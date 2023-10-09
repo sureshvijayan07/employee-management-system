@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstName": "Thomas",
+      "lastName": "Morin",
+      "email": "Thomas.Morin@lol.com",
+      "dob": "1961-04-15T23:00:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "LOL",
+      "experience": 15,
+      "package": 70000,
+      "id": 1
+    },
+    {
+      "firstName": "Elizabeth",
+      "lastName": "Alford",
+      "email": "EAlford@freelook.com",
+      "dob": "1982-01-13T00:00:00.000Z",
+      "gender": "female",
+      "education": "Post Graduate",
+      "company": "Freelook",
+      "experience": 8,
+      "package": 40000,
+      "id": 2
+    },
+    {
+      "firstName": "Karen",
+      "lastName": "James",
+      "email": "KJames@freelook.com",
+      "dob": "1976-09-06T23:00:00.000Z",
+      "gender": "male",
+      "education": "Intermediate",
+      "company": "freelook",
+      "experience": 10,
+      "package": 85000,
+      "id": 3
+    },
+    {
+      "firstName": "Joan",
+      "lastName": "Ezell",
+      "email": "JEzell@snowmail.com",
+      "dob": "1972-02-02T00:00:00.000Z",
+      "gender": "female",
+      "education": "Diploma",
+      "company": "snowmail",
+      "experience": 7,
+      "package": 75000,
+      "id": 4
+    }
+  ]
+}
