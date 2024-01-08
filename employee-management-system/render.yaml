@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: employee-management-system
+    buildCommand: npm install && ng build --prod
+    startCommand: npx http-server -p $PORT -c-1 dist/employee-management-system
