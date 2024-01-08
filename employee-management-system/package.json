@@ -4,9 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "json-server": "json-server --watch db.json --port 3000",
+    "build": "json-server --watch db.json & ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "start-with-json-server": "concurrently \"npm run json-server\" \"npm run start\"",
+    "build-and-serve": "npm run build && json-server dist/employee-management-system --port 3000"
   },
   "private": true,
   "dependencies": {
