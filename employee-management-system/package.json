@@ -8,7 +8,7 @@
     "json-server": "json-server --watch db.json --port 3000",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build-and-serve": "npm run build && json-server dist/employee-management-system --port 3000"
+    "build-and-serve": "npm run build && npm run json-server"
   },
   "private": true,
   "dependencies": {
